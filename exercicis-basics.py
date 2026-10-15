@@ -26,6 +26,13 @@ e = None
 
 ### Completa aquí
 
+print("Tipus de a:", type(a))
+print("Tipus de b:", type(b))
+print("Tipus de c:", type(c))
+print("Tipus de d:", type(d))
+print("Tipus de e:", type(e))
+
+
 print("--------------")
 
 print("\nExercici 3: Conversió de tipus")
