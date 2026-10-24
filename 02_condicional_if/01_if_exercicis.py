@@ -29,13 +29,30 @@ if operacio == "/" and num2 == 0:
     print("Error: no es pot dividir per zero.")
 elif operacio == "+":
     calcul = num1 + num2 
-    print(f"El resultat és: {calcul}")
+    print(f"El resultat de la suma és: {calcul}")
+elif operacio == "-":
+    calcul = num1 - num2
+    print(f"El resultat de la resta és: {calcul}")
+elif operacio == "*":
+    calcul = num1 * num2
+    print(f"El resultat de la multiplicació és: {calcul}")
+elif operacio == "/":
+    calcul = num1 / num2
+    print(f"El resultat de la divisió és: {calcul}")
+else:
+    print(f"Aquesta no és una operació vàlida.")
 
 
 # Exercici 3: Any de traspàs
 # Demana a l'usuari que introdueixi un any i determina si és de traspàs.
 # Un any és de traspàs si és divisible per 4, excepte si és divisible per 100
 # però no per 400.
+print("\nExercici 3:")
+any = int(input("Introdueix un any: "))
+if (any % 4 == 0 and any % 100 != 0) or any % 400 == 0:
+    print(f"L'any {any} és un any de traspàs.")
+else:
+    print(f"L'any {any} no és un any de traspàs.")
 
 # Exercici 4: Classificar edats
 # Demana a l'usuari que introdueixi una edat i classifica-la en:
@@ -44,6 +61,20 @@ elif operacio == "+":
 # - Adolescent (13-17 anys)
 # - Adult (18-64 anys)
 # - Persona gran (65 anys o més)
+print("\nExercici 4:")
+edat = int(input("Introdueix una edat: "))
+if edat < 0:
+    print("Edat no vàlida.")
+elif edat >= 0 and edat <= 2:
+    print(f"L'edat introduïda ({edat}) pertany a un nadó (0-2 anys)")
+elif edat > 2 and edat <= 13:
+    print(f"L'edat introduïda ({edat}) pertany a un infant (3-12 anys)")
+elif edat > 13 and edat <= 17:
+    print(f"L'edat introduïda ({edat}) pertany a un adolescent (13-17 anys)")
+elif edat > 17 and edat <= 64:
+    print(f"L'edat introduïda ({edat}) pertany a un adult (18-64 anys)")
+else:
+    print(f"L'edat introduïda ({edat}) pertany a una persona gran (65 anys o més)")
 
 # Exercici 5: Qualitat del senyal Wi-Fi
 # Demana el nivell de senyal rebut (RSSI) en dBm i classifica la cobertura:
