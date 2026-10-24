@@ -98,6 +98,7 @@ else:
 # Demana la potència òptica rebuda en dBm. Per a aquest exercici, considera
 # acceptable un nivell entre -27 dBm i -8 dBm, ambdós inclosos.
 # Indica si el nivell és massa baix, acceptable o massa alt.
+print("\nExercici 6:")
 
 
 # Exercici 7: Consum mensual de dades mòbils
