@@ -145,6 +145,8 @@ else:
 # cal encendre el router; si ja està encès, comprova si cal revisar el cable
 # de fibra (LOS encès), si cal contactar amb el proveïdor (Internet apagat) o
 # si la connexió funciona correctament. Considera els casos en aquest ordre.
+print("\nExercici 13:")
+
 
 # Exercici 14: Prioritat d'una incidència de xarxa
 # Demana si la incidència afecta un servei crític, el nombre d'usuaris afectats
@@ -152,7 +154,6 @@ else:
 # d'usuaris. Assigna prioritat crítica si afecta un servei crític i no hi ha
 # alternativa, o si afecta almenys 50 usuaris i no hi ha alternativa; alta si
 # afecta almenys 10 usuaris o un servei crític; en qualsevol altre cas, baixa.
-
 print("\nExercici 14:")
 servei_critic = input("La incidència afecta un servei crític? (s/n): ").strip().lower()
 usuaris = int(input("Quants usuaris estan afectats? "))
