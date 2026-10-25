@@ -137,7 +137,19 @@ while comptador < termes:
 # Demana a l'usuari que provi d'endevinar-lo i continua demanant números amb un bucle while
 # fins que l'encerti.
 # Després de cada intent incorrecte, indica si el número secret és més gran o més petit.
+print("\nExercici 10:")
+num_secret = 7
+num_usuari = int(input("Introdueix un número per endivinar el número secret: "))
 
+while num_usuari != num_secret:
+   print("El número introduït no és el secret.")
+   if num_usuari < num_secret:
+      print("El número és més gran.")   
+   else: 
+      print("El número és més petit.")
+   num_usuari = int(input("Torna-ho a intentar: "))
+
+print("Has encertat el número secret!")
 
 
 
