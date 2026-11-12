@@ -13,7 +13,7 @@ llista = [1, 2, 3, 4, 5]
 llista.append(6)
 llista.insert(2, 10)
 llista[0] = 0
-print(llista)  
+print(llista)  #[0,2,10,3,4,5,6]
 
 # Exercici 2: Combinar i buidar llistes
 # Crea dues llistes:
@@ -26,9 +26,9 @@ print(llista)
 print("\nExercici 2:")
 llista_a = [1, 2, 3]
 llista_b = [4, 5, 6, 1, 2]
-llista_a.extend(llista_b)
-llista_a.remove(1)
-element_eliminat = llista_a.pop(3)
+llista_a.extend(llista_b) #[1,2,3,4,5,6,1,2]
+llista_a.remove(1) #[2,3,4,5,6,1,2]
+element_eliminat = llista_a.pop(3) #[2,3,4,6,1,2] -> valor 5
 print(f"Element eliminat: {element_eliminat}") 
 llista_b.clear()
 print("Llista a:", llista_a) 

@@ -114,7 +114,7 @@ print(f"El número introduït té {comptador} xifres.")
 
 
 # Exercici 9: Seqüència de Fibonacci
-# Demana a l'usuari quants termes de la seqüència de Fibonacci vol veure.
+# Demana a l'usuari quants termes de la seqüència de Fibonacci vol veure
 # Imprimeix aquest nombre de termes fent servir un bucle while.
 # La seqüència comença per 0 i 1; cada terme següent és la suma dels dos anteriors.
 print("\nExercici 9:")
