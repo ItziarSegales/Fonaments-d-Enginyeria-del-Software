@@ -4,11 +4,21 @@
 
 # Exercici 1: Imprimir números parells
 # Imprimeix tots els números parells del 2 al 20 (inclosos) fent servir un bucle for.
+print("\nExercici 1:")
+for numero in range(2, 21, 2):  
+  print(numero)
 
 # Exercici 2: Calcular la mitjana d'una llista
 # Donada la llista de números següent:
 # numeros = [10, 20, 30, 40, 50]
 # Calcula la mitjana dels números fent servir un bucle for.
+print("\nExercici 2:")
+numeros = [10, 20, 30, 40, 50]
+suma = 0
+for numero in numeros:
+  suma += numero
+mitjana = suma / len(numeros)
+print(f"La mitjana és: {mitjana}")
 
 # Exercici 3: Buscar el màxim d'una llista
 # Donada la llista de números següent:
