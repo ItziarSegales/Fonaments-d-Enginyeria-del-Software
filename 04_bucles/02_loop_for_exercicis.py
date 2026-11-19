@@ -24,12 +24,23 @@ print(f"La mitjana és: {mitjana}")
 # Donada la llista de números següent:
 # numeros = [15, 5, 25, 10, 20]
 # Troba el número màxim de la llista fent servir un bucle for.
+print("\nExercici 3:")
+numeros = [15, 5, 25, 10, 20]
+maxim = numeros[0]  # Inicialitzem amb el primer element
+for numero in numeros:
+  if numero > maxim:
+    maxim = numero
+print(f"El número màxim és: {maxim}")
 
 # Exercici 4: Filtrar cadenes per longitud
 # Donada la llista de paraules següent:
 # paraules = ["casa", "arbre", "sol", "elefant", "lluna"]
 # Crea una llista nova que contingui només les paraules amb més de 5 lletres
 # fent servir un bucle for i list comprehension.
+print("\nExercici 4:")
+paraules = ["casa", "arbre", "sol", "elefant", "lluna"]
+paraules_llargues = [paraula for paraula in paraules if len(paraula) > 5]
+print(paraules_llargues)
 
 # Exercici 5: Comptar paraules que comencen per una lletra
 # Donada la llista de paraules següent:
