@@ -60,6 +60,13 @@ print(f"Hi ha {comptador} paraules que comencen per la lletra {lletra}")
 # Durant una prova s'han registrat les tensions següents (en volts):
 # tensions = [4.8, 5.0, 5.1, 4.9, 5.2]
 # Fent servir un bucle for, calcula la tensió mitjana i imprimeix-la.
+print("\nExercici 6:")
+tensions = [4.8, 5.0, 5.1, 4.9, 5.2]
+suma_tensions = 0
+for tensio in tensions:
+  suma_tensions += tensio
+tensio_mitjana = suma_tensions / len(tensions)
+print(f"La tensió mitjana és: {tensio_mitjana} V")
 
 # Exercici 7: Corrent en resistències
 # En un circuit s'aplica una tensió de 12 V a aquestes resistències:
